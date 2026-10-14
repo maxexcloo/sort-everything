@@ -2,6 +2,7 @@ version: 2
 updates:
   - package-ecosystem: 'github-actions'
     directory: '/'
+    open-pull-requests-limit: 0
     schedule:
       day: 'monday'
       interval: 'monthly'
@@ -16,7 +17,7 @@ updates:
       timezone: 'Europe/Berlin'
     pull-request-branch-name:
       separator: '-'
-    open-pull-requests-limit: 99
+    open-pull-requests-limit: 0
     target-branch: main
     commit-message:
       prefix: chore
